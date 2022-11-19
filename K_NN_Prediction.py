@@ -9,7 +9,7 @@ x = dataset.iloc[:,0:8]
 y = dataset.iloc[:,8]
 
 
-# Splitting the dataset into the Training set and Test set
+# Splitting the dataset into the Training set and Test
 # from sklearn.cross_validation import train_test_split
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size = .30,random_state = 42)
